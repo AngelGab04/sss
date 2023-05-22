@@ -370,6 +370,7 @@ public class Accounts extends javax.swing.JInternalFrame {
     
     
     private void delete_btnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_delete_btnMouseClicked
+       
         int rowIndex = user_tbl.getSelectedRow();
         if(rowIndex < 0){
             JOptionPane.showMessageDialog(null, "Please select data first from the table!");

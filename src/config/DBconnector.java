@@ -10,7 +10,7 @@ public class DBconnector {
        // constructor to connect to our database
         public DBconnector(){
             try{
-                connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/apprhai_db", "root", "");
+                connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/cafe", "root", "");
             }catch(SQLException ex){
                     System.out.println("Can't connect to database: "+ex.getMessage());
             }
@@ -18,7 +18,7 @@ public class DBconnector {
         
         public Connection connect_db(){
               try{
-                connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/apprhai_db", "root", "");
+                connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/cafe", "root", "");
             }catch(SQLException ex){
                     System.out.println("Can't connect to database: "+ex.getMessage());
             }

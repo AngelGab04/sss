@@ -87,7 +87,7 @@ public class DashboardMenu extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("ACCOUNT CONTROL");
+        jLabel2.setText("DASHBOARD");
         AccSettings_btn.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 150, 40));
 
         BG_pnl.add(AccSettings_btn, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 270, 152, -1));
